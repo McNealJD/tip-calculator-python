@@ -4,7 +4,7 @@ Tip Calculator
 
 This program easily calculates your tip
 
-Enter the amount of your bill. Only enter dollar amount, not cents.
+Enter the amount of your bill.
 """
 )
 
@@ -26,10 +26,13 @@ fifteen = float(bill * .15)
 twenty = float(bill * .20)
 
 #Show the user their calculated tip
-print("For 10%, your tip is", ten)
+print("""For 10%, your tip is:""")
+print("%.2f" % ten)
 
 
-print("For 15%, your tip is", fifteen)
 
+print("""For 15%, your tip is:""")
+print("%.2f" % fifteen)
 
-print("For 20%, your tip is", twenty)
+print("For 20%, your tip is:""")
+print("%.2f" % twenty)
